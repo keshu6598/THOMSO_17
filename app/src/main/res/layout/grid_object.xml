@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/transparent"
+    android:layout_width="@dimen/list_item_dimen"
+    android:layout_height="@dimen/list_item_dimen"
+    >
+    <ImageView
+        android:id="@+id/grid_item_image"
+        android:gravity="center"
+        android:padding= "20dp"
+
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_dimen"
+        />
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/grid_item_text"
+        android:textSize="16dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

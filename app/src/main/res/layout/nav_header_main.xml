@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:id="@+id/navigation_header_layout"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#202020"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:id="@+id/image_user"
+        android:layout_width="80dp"
+        android:paddingLeft="16dp"
+        android:src="@drawable/user"
+        android:layout_height="80dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#c59b5f"
+        />
+
+    <TextView
+        android:layout_toRightOf="@id/image_user"
+
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:gravity="center"
+        android:text="User"
+        android:id="@+id/name_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:layout_marginTop="6dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+   />
+
+    <TextView
+        android:layout_toRightOf="@id/image_user"
+        android:layout_below="@id/name_user"
+        android:textStyle="bold"
+        android:text="Thomso Id"
+        android:gravity="center"
+        android:textColor="@color/gold"
+        android:id="@+id/id_user"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        />
+    <TextView
+        android:text="User@Thomso.in"
+        android:gravity="left"
+        android:layout_below="@id/image_user"
+        android:textStyle="bold"
+        android:id="@+id/email_user"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#c59b5f"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        />
+    <View
+        android:layout_below="@id/email_user"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gold" />
+
+</RelativeLayout>

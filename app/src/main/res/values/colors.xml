@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ef202020</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gold">#c59b5f</color>
+    <color name="gold_shadow">#60c59b5f</color>
+    <color name="grey">#202020</color>
+</resources>

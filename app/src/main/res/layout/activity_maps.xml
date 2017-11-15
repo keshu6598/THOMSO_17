@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            map:uiCompass="true"
+            map:mapType="normal"
+            />
+
+    </LinearLayout>
+
+    <com.sa90.materialarcmenu.ArcMenu
+        android:id="@+id/arcmenu_android_example_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu_color="#404040"
+        app:menu_open="arc_right"
+        app:menu_scr="@drawable/menus">
+             <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_1"
+            android:layout_width="wrap_content"
+            android:onClick="onClick"
+                 app:fabSize="mini"
+                 android:layout_height="wrap_content"
+            android:src="@drawable/events"
+            app:backgroundTint="#606060" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_2"
+            app:fabSize="mini"
+            android:layout_width="wrap_content"
+            android:onClick="onClick"
+            android:layout_height="wrap_content"
+            android:src="@drawable/food"
+            app:backgroundTint="#606060" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            android:onClick="onClick"
+            android:src="@drawable/lodging"
+            app:backgroundTint="#606060" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_4"
+            android:layout_width="wrap_content"
+            app:fabSize="mini"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:layout_margin="10dp"
+            android:src="@drawable/atm"
+            app:backgroundTint="#606060" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_arc_menu_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            android:onClick="onClick"
+            android:layout_margin="10dp"
+            android:src="@drawable/venues"
+            app:backgroundTint="#606060" />
+
+
+    </com.sa90.materialarcmenu.ArcMenu>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none" >
+        <item
+            android:id="@+id/payment_nav"
+            android:icon="@drawable/credit_card"
+            android:title="Make Payment" />
+
+        <item
+            android:id="@+id/Events_nav"
+            android:icon="@drawable/event"
+            android:title="Events" />
+        <item
+            android:id="@+id/Workshop_nav"
+            android:icon="@drawable/workshops"
+            android:title="Workshop" />
+        <item
+            android:id="@+id/carnival_nav"
+            android:icon="@drawable/carnival"
+            android:title="Carnival" />
+        <item
+            android:id="@+id/litfest_nav"
+            android:icon="@drawable/litfest"
+            android:title="LitFest" />
+
+        <item
+            android:id="@+id/map_nav"
+            android:icon="@drawable/map"
+            android:title="Map" />
+        <item
+            android:id="@+id/spons_nav"
+            android:icon="@drawable/sponsor"
+            android:title="Sponsors" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Team_nav"
+                android:icon="@drawable/team"
+                android:title="Thomso Team" />
+            <item
+                android:id="@+id/Developer_nav"
+                android:icon="@drawable/developers"
+                android:title="Developer" />
+        </menu>
+    </item>
+
+</menu>

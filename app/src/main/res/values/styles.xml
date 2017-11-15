@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="Text">
+        <item name="android:textColor">@color/gold</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionOverflowButtonStyle">@style/Overflow</item>
+        <item name="android:textColor">#c59b5f</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/gold</item>
+        <item name="colorControlNormal">@color/gold</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="no_shadow" parent="AppTheme.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="actionBarDivider">@null</item>
+    </style>
+   <style name="Overflow" parent="AppTheme.NoActionBar">
+       <item name="android:src">@drawable/more</item>
+   </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:textColor">#c59b5f</item>
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:textColor">#c59b5f</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:textColor">#c59b5f</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:textColor">#c59b5f</item>
+
+    </style>
+</resources>

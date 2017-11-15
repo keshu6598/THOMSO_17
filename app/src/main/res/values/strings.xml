@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Thomso 17</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="base_url">http://thomso.in/</string>
+    <string name="pref_file">Preferences</string>
+    <string name="user_name">name</string>
+    <string name="user_id">id</string>
+    <string name="user_auth">auth</string>
+    <string name="user_token">token</string>
+    <string name="day_1">1</string>
+    <string name="day_2">2</string>
+    <string name="day_3">3</string>
+    <string name="on_going">4</string>
+    <string name="registered">5</string>
+    <string name="profile">pro</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="EXTRA_CIRCULAR_REVEAL_X">EXTRA_CIRCULAR_REVEAL_X</string>
+    <string name="EXTRA_CIRCULAR_REVEAL_Y">EXTRA_CIRCULAR_REVEAL_Y</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_registered_events">registered_events</string>
+    <string-array name="Lit_fest_event_Title">
+        <item>LITERATI</item>
+        <item>SPIN YARN</item>
+        <item>OPEN MIC</item>
+        <item>SLAM POETRY</item>
+        <item>BOOK PITCHING</item>
+        <item>WRITERS FIRST</item>
+        <item>JAM</item>
+        <item>DESI TWIST</item>
+        <item>HAIKU WORKSHOP</item>
+        <item>COMIC WORKSHOP</item>
+    </string-array>
+    <string-array name="lit_fest_content">
+        <item>A plethora of events under the banner of Literati. Organizing 5 events, in some of the most popular formats:1. JAM (Just a minute)2. Anonymity (An on-the- spot letter writing competition)3. Spell Bee (An on-the- spot spelling competition) 4. Word Games (Fun vocabulary based games)</item>
+        <item>Are you passionate about entrancing people in the mystique of yourstories? Do characters come alive in your mind, flourishing under the light of creativity and doing a better job than truth itself? This event lets the participants put their heads together over an intriguing comic strip to create enthralling stories in front of an engaging audience. Storytelling is an art, and even more so when people want to listen. So buckle your seatbelts and let the story take over in this magical journey of storytelling and adventure, enrapturing listeners to your world.</item>
+        <item>Open mic is an event where anyone can grab the mic and perform. The performer is handed the mic to perform live on the stage in front of the audience. The event is focused on performance arts like poetry, spoken word, song, stand-up comedy, etc.</item>
+        <item>Slam poetry is a style of spoken word poetry which combines the skill of writing with the art of performing. It is about ordinary experiences being narrated like fantastic tales. It is a free form of poetry that utilises poetic tools and devices to convey a story, message or feeling towards a particular issue.</item>
+        <item>Engage with some of India’s finest authors as they discuss their latest works in a candid event suffused with literary vibrancy.</item>
+        <item>Present your best creative ideas to professional writers, let your heart roam and your spirit soar in this thought-provoking event.</item>
+        <item>Be your fluent best, conquer the stage, soak in the thunderous applause after delivering a confident speech to an enthralled audience</item>
+        <item>Remodel popular stories the way you want, modify endings and give literary classics that tangy twist.</item>
+        <item>We make each others’ stories as participants contribute lines that together make a story, much like the world.</item>
+        <item>Enjoy the intricacies of comic art and humour, the sweet-and-sour taste in the cocktail that is literature.</item>
+    </string-array>
+<string name="event_data">
+
+</string>
+</resources>

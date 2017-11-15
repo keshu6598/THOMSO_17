@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mxn.soul.flowingdrawer_core.FlowingDrawer
+    android:id="@+id/flowing_drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    app:edPosition="1"
+    app:edMenuSize="260dp"
+    app:edMenuBackground="@color/gold_shadow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:background="@color/grey"
+        android:orientation="vertical"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        android:shadowRadius="50"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/app_bar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Venue : ABN Ground"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            />
+
+        <android.support.v7.widget.CardView
+
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="15dp"
+            android:background="#404040"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#404040"
+            >
+            <TextView
+                android:id="@+id/carnival_melodies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MELODIES"
+                android:typeface="monospace"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thomso Karaoke"
+                android:id="@+id/t_1"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beat Boxing"
+                android:id="@+id/t_2"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rap Battel"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Open Mic"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+            android:layout_gravity="center"
+            android:background="#404040"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#404040"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/carnival_mass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:text="MASS PARTICIPATION"
+                android:textAlignment="center" 
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/t_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Human Foosball"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Body Zorbing"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paint Ball"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dodgeball"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+</android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+            android:layout_gravity="center"
+            android:background="#404040"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_height="wrap_content"
+            android:background="#404040"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SOLO SENPAI"
+                android:textColor="#FFFFFF"
+                android:id="@+id/carnival_solo"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+               android:id="@+id/t_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Boulevard Games"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Street Tic-Tac-Toe"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land Zorbing"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Darting"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+
+            android:layout_gravity="center"
+            android:background="#404040"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:background="#404040"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AMUSEMENT"
+                android:id="@+id/carnival_amusement"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Street Performances"
+
+                android:textColor="#8fFFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fire Dance"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Magicians"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/t_16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juggler"
+                android:textColor="#FFFFFF"
+                android:drawableLeft="@drawable/dot"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_arc_menu_2"
+        android:layout_width="wrap_content"
+        android:onClick="openGoogleMaps"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_dialog_map"
+        app:backgroundTint="#01579B" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_arc_menu_1"
+        android:layout_width="wrap_content"
+        android:onClick="openCallLog"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/fab_arc_menu_2"
+        android:src="@android:drawable/stat_sys_phone_call"
+        app:backgroundTint="#0fb33d" />
+
+</RelativeLayout>
+    </LinearLayout>
+
+    <com.mxn.soul.flowingdrawer_core.FlowingMenuLayout
+        android:id="@+id/flowing_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:background="@color/colorAccent"
+            android:id="@+id/container_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+
+    </com.mxn.soul.flowingdrawer_core.FlowingMenuLayout>
+</com.mxn.soul.flowingdrawer_core.FlowingDrawer>
