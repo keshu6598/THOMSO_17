@@ -7,6 +7,14 @@ import android.support.v4.app.FragmentPagerAdapter;
  * Created by nikhil on 7/10/17.
  */
 
+public class CustomAdapter extends FragmentPagerAdapter {
+
+    private String tabTitles[] = new String[] { "Day 1", "Day 2", "Day 3"};
+
+    public CustomAdapter(android.support.v4.app.FragmentManager fm) {
+        super(fm);
+    }
+
     @Override
     public android.support.v4.app.Fragment getItem(int position) {
         if (position == 0) {
